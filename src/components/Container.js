@@ -1,15 +1,21 @@
-import * as React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
+import React from 'react';
+import Typewriter from 'react-typewriter-effect';
+import './css/Container.css';
 
-export default function SimpleContainer() {
+const Container = () => {
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="sm">
-        <Box sx={{ bgcolor: '#cfe8fc', height: '50vh' }} />
-      </Container>
-    </React.Fragment>
+    <div className="container">
+      <div style={{ color: "green", fontFamily: "Courier", fontSize: "24px" }}>
+        <Typewriter
+          text="Hello World " 
+          onInit={(typewriter) => {
+            typewriter.typeString(typewriter.props.text)
+              .start();
+          }}
+        />
+      </div>
+    </div>
   );
-}
+};
+
+export default Container;

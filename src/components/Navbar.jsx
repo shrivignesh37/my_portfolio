@@ -1,11 +1,11 @@
 import React from 'react';
 import './css/Navbar.css';
 
-
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <ul className="navbar-nav" style={{color:'white'}}>
+            <div className="navbar-brand">Shri vignesh S</div>
+            <ul className="navbar-nav">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/projects">Projects</a></li>
@@ -15,4 +15,6 @@ const Navbar = () => {
     );
 };
 
+
 export default Navbar;
+

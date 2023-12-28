@@ -5,6 +5,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .navbar-brand {
@@ -33,4 +43,242 @@
 .navbar-nav li a:hover {
     background-color: #333;
     color: #ba5d5d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-nav li {
+    margin-right: 10px;
+}
+
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    color: #e7e7e7;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Default theme */
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-nav li {
+    margin-right: 10px;
+}
+
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    color: #e7e7e7;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+/* Dark theme */
+.dark-theme .navbar-brand {
+    color: #fff;
+}
+
+.dark-theme .navbar-nav li a {
+    color: #fff;
+}
+
+.dark-theme .navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+/* White theme */
+.white-theme .navbar-brand {
+    color: #333;
+}
+
+.white-theme .navbar-nav li a {
+    color: #333;
+}
+
+.white-theme .navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.navbar {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-image: url('https://img.freepik.com/free-photo/full-shot-woman-training-with-vr_23-2150661591.jpg?w=1060&t=st=1703791424~exp=1703792024~hmac=52a3ef9c9060609d521f28d2b26de023b68d2fbf082c67ffacaaf394e1cd5398');
+    background-position: top;
+    background-size: cover;
+}
+
+.navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-nav li {
+    margin-right: 10px;
+}
+
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    color: #e7e7e7;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+/* Dark theme */
+.dark-theme .navbar-brand {
+    color: #fff;
+}
+
+.dark-theme .navbar-nav li a {
+    color: #fff;
+}
+
+.dark-theme .navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+/* White theme */
+.white-theme .navbar-brand {
+    color: #333;
+}
+
+.white-theme .navbar-nav li a {
+    color: #333;
+}
+
+.white-theme .navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
