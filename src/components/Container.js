@@ -1,21 +1,15 @@
 import React from 'react';
-import Typewriter from 'react-typewriter-effect';
+import Hackertext from './Hackertext';
 import './css/Container.css';
 
 const Container = () => {
   return (
     <div className="container">
-      <div style={{ color: "green", fontFamily: "Courier", fontSize: "24px" }}>
-        <Typewriter
-          text="Hello World " 
-          onInit={(typewriter) => {
-            typewriter.typeString(typewriter.props.text)
-              .start();
-          }}
-        />
-      </div>
+      <Hackertext></Hackertext>
+      
     </div>
   );
 };
 
 export default Container;
+

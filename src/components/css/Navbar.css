@@ -1,6 +1,6 @@
 
 .navbar {
-    background-color: #373737;
+    background-color: transparent;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -142,7 +142,7 @@
 }
 
 .dark-theme .navbar-nav li a {
-    color: #fff;
+    color: #c2adad;
 }
 
 .dark-theme .navbar-nav li a:hover {
@@ -183,13 +183,13 @@
 .navbar {
     padding: 5px 10px;
     border-radius: 5px;
-    background-image: url('https://img.freepik.com/free-photo/full-shot-woman-training-with-vr_23-2150661591.jpg?w=1060&t=st=1703791424~exp=1703792024~hmac=52a3ef9c9060609d521f28d2b26de023b68d2fbf082c67ffacaaf394e1cd5398');
+    /* background-image: url('https://img.freepik.com/free-photo/full-shot-woman-training-with-vr_23-2150661591.jpg?w=1060&t=st=1703791424~exp=1703792024~hmac=52a3ef9c9060609d521f28d2b26de023b68d2fbf082c67ffacaaf394e1cd5398'); */
     background-position: top;
     background-size: cover;
 }
 
 .navbar-nav li a:hover {
-    background-color: #333;
+    background-color: #aca4a4;
     color: #ba5d5d;
 }
 
@@ -280,5 +280,87 @@
     .navbar-nav li {
         margin-right: 0;
         margin-bottom: 10px;
+    }
+}
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    color: #e7e7e7;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+.navbar-nav li a:hover::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgba(186, 93, 93, 0.5);
+    animation: hoverRing 1s ease-out;
+}
+
+@keyframes hoverRing {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+}
+
+
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    color: #e7e7e7;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-nav li a:hover {
+    background-color: #333;
+    color: #ba5d5d;
+}
+
+.navbar-nav li a:hover::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgba(186, 93, 93, 0.5);
+    animation: hoverRing 1s ease-out;
+}
+
+@keyframes hoverRing {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
     }
 }

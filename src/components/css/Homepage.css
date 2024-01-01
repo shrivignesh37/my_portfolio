@@ -4,3 +4,12 @@
     width: 50px;
     
 }
+.spine1 {
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(193, 132, 132);
+}
