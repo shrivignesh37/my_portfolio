@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import './css/About.css'; // Import the CSS file
-import Spline from '@splinetool/react-spline';
+// import Spline from '@splinetool/react-spline';
 const AboutUs = () => {
     return (
         <div className='about-us'>

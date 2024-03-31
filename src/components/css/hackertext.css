@@ -1,13 +1,12 @@
 @import "https://fonts.googleapis.com/css?family=Roboto+Mono:500";
 
-html,
 body {
     font-family: "Roboto Mono", monospace;
-    background: #151515;
+    background: #202d3e;
     height: 100%;
 }
 
-.container {
+.container1 {
     height: 100vh;
     display: grid;
     place-items: center;

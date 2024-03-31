@@ -1,20 +1,18 @@
 import React from 'react';
-import Room3d from './Room3d';
-import Container from './Container';
+// import Room3d from './Room3d';
+import HackerTextBox from './HackerTextBox';
 import Navbar from './Navbar';
-import AboutUs from './About';
+
+import  ProjectCard from './ProfileCard';
 
 export default function Homepage() {
   return (
     <div>
       <Navbar />
       <div>
-        <Room3d />
-        <div>
-          <Container />
-          <AboutUs />
+          <HackerTextBox/>
+          <ProjectCard />
         </div>
       </div>
-    </div>
   );
 }
