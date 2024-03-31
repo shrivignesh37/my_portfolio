@@ -1,5 +1,5 @@
 
-.navbar {
+.navbar1 {
     background-color: transparent;
     padding: 10px;
     display: flex;
@@ -17,22 +17,22 @@
     }
 }
 
-.navbar-brand {
+.navbar-brand1 {
     font-size: 20px;
     font-weight: bold;
     color: #333;
 }
 
-.navbar-nav {
+.navbar-nav1 {
     list-style: none;
     display: flex;
 }
 
-.navbar-nav li {
+.navbar-nav1 li {
     margin-right: 10px;
 }
 
-.navbar-nav li a {
+.navbar-nav1 li a {
     color: white;
     text-decoration: none;
     color: #e7e7e7;
@@ -40,45 +40,45 @@
     border-radius: 5px;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav1 li a:hover {
     background-color: #333;
     color: #ba5d5d;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .navbar {
+    .navbar1 {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .navbar-nav {
+    .navbar-nav1 {
         margin-top: 10px;
     }
 
-    .navbar-nav li {
+    .navbar-nav1 li {
         margin-right: 0;
         margin-bottom: 10px;
     }
 }
 
 
-.navbar-brand {
+.navbar-brand1 {
     font-size: 20px;
     font-weight: bold;
     color: #333;
 }
 
-.navbar-nav {
+.navbar-nav1 {
     list-style: none;
     display: flex;
 }
 
-.navbar-nav li {
+.navbar-nav1 li {
     margin-right: 10px;
 }
 
-.navbar-nav li a {
+.navbar-nav1 li a {
     color: rgb(4, 2, 2);
     text-decoration: none;
     color: #e7e7e7;
@@ -86,44 +86,44 @@
     border-radius: 5px;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav1 li a:hover {
     background-color: #333;
     color: #ba5d5d;
 }
 
 @media (max-width: 768px) {
-    .navbar {
+    .navbar1 {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .navbar-nav {
+    .navbar-nav1 {
         margin-top: 10px;
     }
 
-    .navbar-nav li {
+    .navbar-nav1 li {
         margin-right: 0;
         margin-bottom: 10px;
     }
 }
 
 /* Default theme */
-.navbar-brand {
+.navbar-brand1 {
     font-size: 20px;
     font-weight: bold;
     color: #333;
 }
 
-.navbar-nav {
+.navbar-nav1 {
     list-style: none;
     display: flex;
 }
 
-.navbar-nav li {
+.navbar-nav1 li {
     margin-right: 10px;
 }
 
-.navbar-nav li a {
+.navbar-nav1 li a {
     color: white;
     text-decoration: none;
     color: #e7e7e7;
@@ -131,56 +131,30 @@
     border-radius: 5px;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav1 li a:hover {
     background-color: #333;
     color: #ba5d5d;
 }
 
-/* Dark theme */
-.dark-theme .navbar-brand {
-    color: #fff;
-}
 
-.dark-theme .navbar-nav li a {
-    color: #c2adad;
-}
-
-.dark-theme .navbar-nav li a:hover {
-    background-color: #333;
-    color: #ba5d5d;
-}
-
-/* White theme */
-.white-theme .navbar-brand {
-    color: #333;
-}
-
-.white-theme .navbar-nav li a {
-    color: #333;
-}
-
-.white-theme .navbar-nav li a:hover {
-    background-color: #333;
-    color: #ba5d5d;
-}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .navbar {
+    .navbar1 {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .navbar-nav {
+    .navbar-nav1 {
         margin-top: 10px;
     }
 
-    .navbar-nav li {
+    .navbar-nav1 li {
         margin-right: 0;
         margin-bottom: 10px;
     }
 }
-.navbar {
+.navbar1 {
     padding: 5px 10px;
     border-radius: 5px;
     /* background-image: url('https://img.freepik.com/free-photo/full-shot-woman-training-with-vr_23-2150661591.jpg?w=1060&t=st=1703791424~exp=1703792024~hmac=52a3ef9c9060609d521f28d2b26de023b68d2fbf082c67ffacaaf394e1cd5398'); */
@@ -188,44 +162,44 @@
     background-size: cover;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav1 li a:hover {
     background-color: #aca4a4;
     color: #ba5d5d;
 }
 
 @media (max-width: 768px) {
-    .navbar {
+    .navbar1 {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .navbar-nav {
+    .navbar-nav1 {
         margin-top: 10px;
     }
 
-    .navbar-nav li {
+    .navbar-nav1 li {
         margin-right: 0;
         margin-bottom: 10px;
     }
 }
 
 
-.navbar-brand {
+.navbar-brand1 {
     font-size: 20px;
     font-weight: bold;
     color: #333;
 }
 
-.navbar-nav {
+.navbar-nav1 {
     list-style: none;
     display: flex;
 }
 
-.navbar-nav li {
+.navbar-nav1 li {
     margin-right: 10px;
 }
 
-.navbar-nav li a {
+.navbar-nav1 li a {
     color: white;
     text-decoration: none;
     color: #e7e7e7;
@@ -233,56 +207,56 @@
     border-radius: 5px;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav1 li a:hover {
     background-color: #333;
     color: #ba5d5d;
 }
 
 /* Dark theme */
-.dark-theme .navbar-brand {
+.dark-theme .navbar-brand1 {
     color: #fff;
 }
 
-.dark-theme .navbar-nav li a {
+.dark-theme .navbar-nav1 li a {
     color: #fff;
 }
 
-.dark-theme .navbar-nav li a:hover {
+.dark-theme .navbar-nav1 li a:hover {
     background-color: #333;
     color: #ba5d5d;
 }
 
 /* White theme */
-.white-theme .navbar-brand {
+.white-theme .navbar-brand1 {
     color: #333;
 }
 
-.white-theme .navbar-nav li a {
+.white-theme .navbar-nav1 li a {
     color: #333;
 }
 
-.white-theme .navbar-nav li a:hover {
+.white-theme .navbar-nav1 li a:hover {
     background-color: #333;
     color: #ba5d5d;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .navbar {
+    .navbar1 {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .navbar-nav {
+    .navbar-nav1 {
         margin-top: 10px;
     }
 
-    .navbar-nav li {
+    .navbar-nav1 li {
         margin-right: 0;
         margin-bottom: 10px;
     }
 }
-.navbar-nav li a {
+.navbar-nav1 li a {
     color: white;
     text-decoration: none;
     color: #e7e7e7;
@@ -292,12 +266,12 @@
     overflow: hidden;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav1 li a:hover {
     background-color: #333;
     color: #ba5d5d;
 }
 
-.navbar-nav li a:hover::before {
+.navbar-nav1 li a:hover::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -324,7 +298,7 @@
 }
 
 
-.navbar-nav li a {
+.navbar-nav1 li a {
     color: white;
     text-decoration: none;
     color: #e7e7e7;
@@ -334,12 +308,12 @@
     overflow: hidden;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav1 li a:hover {
     background-color: #333;
     color: #ba5d5d;
 }
 
-.navbar-nav li a:hover::before {
+.navbar-nav1 li a:hover::before {
     content: "";
     position: absolute;
     top: 50%;

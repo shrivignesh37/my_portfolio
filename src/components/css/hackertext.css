@@ -1,10 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Roboto+Mono:500";
 
-body {
-    font-family: "Roboto Mono", monospace;
-    background: #202d3e;
-    height: 100%;
-}
+
 
 .container1 {
     height: 100vh;
@@ -24,19 +20,4 @@ body {
 .dud:hover {
     color: #20C20E;
     text-decoration: none;
-}
-.spine{
-    height: 100%;
-    width: 100%;
-    margin-right: 30%;
-    margin-bottom: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-}
-.spine1{
-
-    margin-top: 7%;
-    margin-bottom: 30%
 }

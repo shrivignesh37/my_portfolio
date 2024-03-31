@@ -25,19 +25,3 @@
 }
 
 
-
-.container {
-    position: relative;
-  }
-  
-  .custom-cursor {
-    position: absolute;
-    width: 20px; /* Adjust the width and height as needed */
-    height: 20px;
-    background-color: red; /* Customize the cursor color */
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9999; /* Ensure it appears above other elements */
-    transform: translate(-50%, -50%);
-    transition: transform 0.1s ease; /* Add a transition for a smoother effect */
-  }
