@@ -3,15 +3,25 @@ import React from 'react';
 import HackerTextBox from './HackerTextBox';
 import Navbar from './Navbar';
 
-import  ProjectCard from './ProfileCard';
-
+import  ProfileCard from './ProfileCard';
+import Education from './Education';
+import Acheivements from './Acheivements';
+import ProjectCard from './ProjectCard';
+import Contact from './Contact';
+// import ProjectCard from './ProjectCard';
 export default function Homepage() {
   return (
     <div>
       <Navbar />
       <div>
           <HackerTextBox/>
-          <ProjectCard />
+          <ProfileCard />
+         <br></br>
+          <br></br>
+         <Education />
+         <Acheivements/>
+         <ProjectCard/>
+         <Contact/>
         </div>
       </div>
   );
