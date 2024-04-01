@@ -10,7 +10,7 @@ function App() {
     // Simulate an asynchronous operation (e.g., fetching data) that takes time
     setTimeout(() => {
       setIsLoading(false);  // Set loading state to false after the operation is done
-    }, 2000  );  // You can adjust the timeout duration based on your needs
+    }, 0  );  // You can adjust the timeout duration based on your needs
   }, []);
 
   return (

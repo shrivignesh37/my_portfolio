@@ -1,11 +1,18 @@
+.nav-container_ {
+    display: flex;
+    justify-content: center !important;
+    margin-top: 0.5rem;
+}
 
 .navbar1 {
+    width: 80vw;
     background-color: transparent;
-    padding: 10px;
+    padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     animation: fadeIn 1s ease-in-out;
+    /* position: fixed; */
 }
 
 @keyframes fadeIn {
@@ -26,17 +33,18 @@
 .navbar-nav1 {
     list-style: none;
     display: flex;
+    margin-bottom: 0;
 }
 
 .navbar-nav1 li {
-    margin-right: 10px;
+    margin: 0px 1.5rem;
 }
 
 .navbar-nav1 li a {
+    padding: 0.5rem 0.8rem;
     color: white;
     text-decoration: none;
     color: #e7e7e7;
-    padding: 5px 10px;
     border-radius: 5px;
 }
 
@@ -82,7 +90,7 @@
     color: rgb(4, 2, 2);
     text-decoration: none;
     color: #e7e7e7;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border-radius: 5px;
 }
 
@@ -127,7 +135,7 @@
     color: white;
     text-decoration: none;
     color: #e7e7e7;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border-radius: 5px;
 }
 
@@ -155,7 +163,7 @@
     }
 }
 .navbar1 {
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border-radius: 5px;
     /* background-image: url('https://img.freepik.com/free-photo/full-shot-woman-training-with-vr_23-2150661591.jpg?w=1060&t=st=1703791424~exp=1703792024~hmac=52a3ef9c9060609d521f28d2b26de023b68d2fbf082c67ffacaaf394e1cd5398'); */
     background-position: top;
@@ -203,7 +211,7 @@
     color: white;
     text-decoration: none;
     color: #e7e7e7;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border-radius: 5px;
 }
 
@@ -260,7 +268,7 @@
     color: white;
     text-decoration: none;
     color: #e7e7e7;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -281,7 +289,7 @@
     height: 0;
     border-radius: 50%;
     background-color: rgba(186, 93, 93, 0.5);
-    animation: hoverRing 1s ease-out;
+    animation: hoverRing 4s ease-in;
 }
 
 @keyframes hoverRing {
@@ -302,7 +310,7 @@
     color: white;
     text-decoration: none;
     color: #e7e7e7;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -310,7 +318,7 @@
 
 .navbar-nav1 li a:hover {
     background-color: #333;
-    color: #152238;
+    color: #fff;
 }
 
 .navbar-nav1 li a:hover::before {
@@ -323,7 +331,7 @@
     height: 0;
     border-radius: 50%;
     background-color: #152238;
-    animation: hoverRing 1s ease-out;
+    animation: hoverRing 2s ease-out;
 }
 
 @keyframes hoverRing {
