@@ -44,11 +44,11 @@ export default function ProfileCard() {
                   <p style={{color:"white"}}>Shri Vignesh S</p>
                   <p style={{color:"white"}}>Full Stack Developer</p>
                   <div className="d-flex justify-content-center mb-5">
-                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px'}}> <MDBIcon fab icon="linkedin" /></MDBBtn>
-                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px'}}> <MDBIcon fab icon="instagram" /></MDBBtn>
-                    <MDBBtn className="btn btn-primary" style={{marginRight:'15px'}}> <MDBIcon fab icon="google" /></MDBBtn>
-                    <MDBBtn className="btn btn-primary" style={{marginRight:'15px'}}> <MDBIcon fas icon="envelope" /></MDBBtn>
-                    <MDBBtn className="btn btn-primary" style={{marginRight:'1px'}}> <MDBIcon fab icon="github" /></MDBBtn>
+                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px'}}> <MDBIcon fab icon='linkedin-in' /></MDBBtn>
+                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#ac2bac' }}> <MDBIcon fab icon="instagram" /></MDBBtn>
+                    <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#dd4b39'}}> <MDBIcon fab icon="google" /></MDBBtn>
+                    <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#dd4b39' }}> <MDBIcon fas icon="envelope" /></MDBBtn>
+                    <MDBBtn className="btn btn-primary" style={{marginRight:'1px',backgroundColor: '#333333'}}> <MDBIcon fab icon="github" /></MDBBtn>
                   </div>
                 </MDBCardBody>
               </MDBCard>

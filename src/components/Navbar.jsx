@@ -8,9 +8,9 @@ const Navbar = () => {
 
     const toggleTheme = () => {
         setIsWhiteTheme(!isWhiteTheme);
-        document.body.style.backgroundColor = isWhiteTheme ? '#202d3e' : '#D3D3D3';
+        document.body.style.backgroundColor = isWhiteTheme ? '#D3D3D3' : '#202d3e';
     };
-
+    
     return (
         <MDBNavbar fixed='top' className='nav-container_'>
             <nav
@@ -27,23 +27,24 @@ const Navbar = () => {
                 </div>
                 <ul className='navbar-nav1'>
                     <li>
-                        <a href='/'>Home</a>
+                    <a href='/'>Home</a>
                     </li>
                     <li>
                         <a href='/ProfileCard'>About</a>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                         <a href='/projects'>Projects</a>
-                    </li>
+                        </li>
                     <li>
                         <a href='/contact'>Contact</a>
-                    </li>
-                </ul>
+                        </li>
+                        </ul>
                 <MDBBtn  outline color='white'  onClick={toggleTheme}>Theme</MDBBtn>
-            </nav>
+                </nav>
         </MDBNavbar>
     );
 };
 
 export default Navbar;
 
+document.body.style.backgroundColor = '#202d3e';
