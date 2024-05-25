@@ -44,11 +44,15 @@ export default function ProfileCard() {
                   <p style={{color:"white"}}>Shri Vignesh S</p>
                   <p style={{color:"white"}}>Full Stack Developer</p>
                   <div className="d-flex justify-content-center mb-5">
-                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px'}}> <MDBIcon fab icon='linkedin-in' /></MDBBtn>
-                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#ac2bac' }}> <MDBIcon fab icon="instagram" /></MDBBtn>
-                    <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#dd4b39'}}> <MDBIcon fab icon="google" /></MDBBtn>
-                    <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#dd4b39' }}> <MDBIcon fas icon="envelope" /></MDBBtn>
-                    <MDBBtn className="btn btn-primary" style={{marginRight:'1px',backgroundColor: '#333333'}}> <MDBIcon fab icon="github" /></MDBBtn>
+                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px'}} href="https://www.linkedin.com/in/shri-vignesh/"> <MDBIcon fab icon='linkedin-in' /></MDBBtn>
+                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#ac2bac' }} href="https://www.instagram.com/___.s_h_r_i.___/"> <MDBIcon fab icon="instagram" /></MDBBtn>
+                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#333333'}} href="https://g.dev/Shri37"> <MDBIcon fab icon="google" /></MDBBtn>
+                  <MDBBtn className="btn btn-primary" style={{marginRight:'15px',backgroundColor: '#dd4b39' }} href="mailto:shrivigneshsumathi@gmail.com"> <MDBIcon fas icon="envelope" /></MDBBtn>
+                    <a href="https://github.com/shrivignesh37">
+                      <MDBBtn className="btn btn-primary" style={{marginRight:'1px',backgroundColor: '#333333'}}>
+                        <MDBIcon fab icon="github" />
+                      </MDBBtn>
+                    </a>
                   </div>
                 </MDBCardBody>
               </MDBCard>
@@ -75,7 +79,7 @@ export default function ProfileCard() {
           
               As a sophomore at Sri Krishna College of Technology (SKCT), my passion for 
               creative design roles in the tech industry drives me. Committed to mastering 
-              React, SQL, DSA, Java, C++, MongoDB, SpringBoot, and Agile methodologies, I'm 
+              React, SQL, DSA, Java, C++, MongoDB, Aws, SpringBoot, and Agile methodologies, I'm 
               
               poised to contribute innovative ideas to future projects. With accolades in
                hackathons and a finalist position at Smart India Hackathon (SIH), I'm set to graduate in 2026. Based in Coimbatore,
