@@ -27,4 +27,43 @@
   .profile-picture:hover {
     transform: scale(1.1); /* Scale up the image on hover */
   }
+  .futuristic-shapes {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(145deg, #00ff99, #33ccff);
+    border-radius: 50%;
+    animation: moveShapes 10s ease-in-out infinite alternate;
+  }
+  
+  @keyframes moveShapes {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(100px, 100px);
+    }
+  }
+  
+  .futuristic-card {
+    z-index: 1;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  
+  .skill {
+    background-color: #1f334d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
   

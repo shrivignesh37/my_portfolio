@@ -1,45 +1,56 @@
 import React from 'react';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import './css/ProfileCard.css';
-import { MDBCard} from 'mdb-react-ui-kit';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import './css/Skills.css';
+import Bootstrap from './Assets/Skills/Bootstrap.png';
+import Java from './Assets/Skills/java.png';
+import ReactJS from './Assets/Skills/react.png';
+import SpringBoot from './Assets/Skills/springboot.jpeg';
+import MongoDB from './Assets/Skills/mongodb.jpeg';
+import CPP from './Assets/Skills/c++.png';
+import MySQL from './Assets/Skills/mysql.png';
+import Node from './Assets/Skills/node.png';
+import HTML from './Assets/Skills/html.png';
+import JavaScript from './Assets/Skills/js.png';
+import MUI from './Assets/Skills/mui1.jpeg';
+import Docker from './Assets/Skills/Docker.png';
+import AWS from './Assets/Skills/aws.png';
+import Agile from './Assets/Skills/agile.png';
+import RestApi from './Assets/Skills/restapi.png';
+import Figma from './Assets/Skills/figma.png';
 
-export default function Education() {
+const skills = [
+  { name: 'Java', icon: Java },
+  { name: 'React JS', icon: ReactJS },
+  { name: 'Spring Boot', icon: SpringBoot },
+  { name: 'MongoDB', icon: MongoDB },
+  { name: 'C++', icon: CPP },
+  { name: 'My SQL', icon: MySQL },
+  { name: 'Node', icon: Node },
+  { name: 'HTML', icon: HTML },
+  { name: 'JavaScript', icon: JavaScript },
+  { name: 'BootStrap', icon: Bootstrap },
+  { name: 'MUI', icon: MUI },
+  { name: 'Docker', icon: Docker },
+  { name: 'AWS', icon: AWS },
+  { name: 'Agile', icon: Agile },
+  { name: 'RestApi', icon: RestApi },
+  {name: 'Figma', icon: Figma}
+];
+
+const Skills = () => {
   return (
-    <div>
-    <React.Fragment>
-    <Container fixed>
-      <Box
-        sx={{
-          display: 'flex',
-          backgroundColor: '#152238', 
-          backdropFilter: 'blur(5px)', 
-          boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)', 
-          margin: '-147px',
-          width: '95vh',
-          height: '70vh',
-          marginTop: '18vh',
-          borderRadius: '2vh',
-          justifyContent: 'space-between', 
-          alignItems: 'center', 
-          padding: '0 2vh', 
-        }}
-      >
-      <div className="container"> 
-      <div >
-        <div className="col-lg-2 offset-lg-0" style={{marginLeft:'10vh', marginTop:'10vh', width:'55vh'}}>
-          <MDBCard className="mb-2" style={{backgroundColor: '#152238', boxShadow: '0 15px 70px 0 rgba(31, 38, 135, 0.37)' ,  backdropFilter: 'blur(25px)',borderRadius: '6vh'}}>
-
-          </MDBCard>
+    <div className="Skills">
+      <h1>Skills</h1>
+      <br></br>
+      <div className="skills-grid">
+        {skills.map((skill, index) => (
+          <div className="skill-card" key={index}>
+            <img src={skill.icon} alt={`${skill.name} icon`} className="skill-icon" />
+            <p>{skill.name}</p>
           </div>
-          </div>
-          </div>
-      </Box>
-    </Container>
-  </React.Fragment>
-</div>
-   
-  )
+        ))}
+      </div>
+    </div>
+  );
 }
+
+export default Skills;

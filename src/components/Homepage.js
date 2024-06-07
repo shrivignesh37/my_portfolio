@@ -16,10 +16,14 @@ export default function Homepage() {
       <div>
           <HackerTextBox/>
           <ProfileCard />
-         <br></br>
           <br></br>
-         <Education />
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <Education/>  
          <Acheivements/>
+         <br></br>
          <ProjectCard/>
          <Contact/>
         </div>
