@@ -28,17 +28,14 @@ export default function Contact() {
           >
             <div className="container">
               <div>
-                <div className="col-lg-2 offset-lg-0" style={{ marginLeft: '  1vh', marginTop: '4vh', width: '190vh' }}>
+                <div className="col-lg-2 offset-lg-0" style={{ marginLeft: ' 2vh', marginTop: '4vh', width: '190vh' , color: 'white' }}>
 
-                    Connect With Me
-                    I'm actively seeking web development opportunities! If you have any projects or collaboration ideas or just want to say hi, please feel free to connect with me at 
+                     Connect With Me
+                     I'm actively seeking web development opportunities! If you have any projects or collaboration ideas or just want to say hi, please feel free to connect with me at 
                     <br></br>
-        
-                 <center>   Shrivigneshsumathi@gmail.com</center>
-                    <br></br>
-                    <center>by Shri Vignesh S ♥</center>
-                
-                </div>
+                    </div>
+                    <center style={{ color: 'white' }} >Shrivigneshsumathi@gmail.com</center>
+                    <center style={{ color: 'white' }}>by Shri Vignesh S ❤️</center>
               </div>
             </div>
           </Box>

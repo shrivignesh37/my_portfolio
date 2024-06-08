@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './css/Navbar.css';
 import 'react-bootstrap';
-import { MDBNavbar ,MDBBtn} from 'mdb-react-ui-kit';
+import Resume from './Assets/Skills/ResumeCv.pdf';
+import { MDBNavbar, MDBBtn } from 'mdb-react-ui-kit';
 
 const Navbar = () => {
     const [isWhiteTheme, setIsWhiteTheme] = useState(true);
@@ -23,24 +24,31 @@ const Navbar = () => {
                 }}
             >
                 <div className='navbar-brand1' style={{ color: isWhiteTheme ? 'white' : 'white' }}>
-                    Shri vignesh
+                    Shri Vignesh
                 </div>
                 <ul className='navbar-nav1'>
                     <li>
-                    <a href='/'>Home</a>
+                        <a href='/'>Home</a>
                     </li>
                     <li>
-                        <a href='#ProfileCard'>About</a>
-                        </li>
-                        <li>
-                        <a href='/projects'>Projects</a>
-                        </li>
+                        <a href='#notset'>About</a>
+                    </li>
                     <li>
-                        <a href='/contact'>Contact</a>
-                        </li>
-                        </ul>
-                <MDBBtn  outline color='white'  onClick={toggleTheme}>Theme</MDBBtn>
-                </nav>
+                        <a href='#notset'>Projects</a>
+                    </li>
+                    <li>
+                        <a href='#notset'>Contact</a>
+                    </li>
+                </ul>
+                <div className='navbar-actions'>
+                    <MDBBtn outline color='white' href={Resume} download className='nav-btn'>
+                        <span role="img" aria-label="download">⬇️</span> Resume
+                    </MDBBtn>
+                    <MDBBtn outline color='white' onClick={toggleTheme} className='nav-btn'>
+                        <span role="img" aria-label="bulb">💡</span>
+                    </MDBBtn>
+                </div>
+            </nav>
         </MDBNavbar>
     );
 };

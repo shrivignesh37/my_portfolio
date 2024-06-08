@@ -162,13 +162,7 @@
         margin-bottom: 10px;
     }
 }
-.navbar1 {
-    /* padding: 5px 10px; */
-    border-radius: 5px;
-    /* background-image: url('https://img.freepik.com/free-photo/full-shot-woman-training-with-vr_23-2150661591.jpg?w=1060&t=st=1703791424~exp=1703792024~hmac=52a3ef9c9060609d521f28d2b26de023b68d2fbf082c67ffacaaf394e1cd5398'); */
-    background-position: top;
-    background-size: cover;
-}
+
 
 .navbar-nav1 li a:hover {
     background-color: #aca4a4;
