@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './css/Navbar.css';
 import 'react-bootstrap';
-import Resume from './Assets/Skills/ResumeCv.pdf';
+import Resume from './Assets/Skills/ShriVignesh_S_Resume.pdf';
 import { MDBNavbar, MDBBtn } from 'mdb-react-ui-kit';
 
 const Navbar = () => {
