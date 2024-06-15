@@ -13,8 +13,9 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 export default function Homepage() {
   return (
     <div>
-      <Navbar />
-      <div>
+    <SpeedInsights>
+    <Navbar />
+    <div>
           <HackerTextBox/>
           <ProfileCard />
           <br></br>
@@ -23,12 +24,13 @@ export default function Homepage() {
           <br></br>
           <br></br>
           <Education/>  
-         <Acheivements/>
-         <br></br>
-         <ProjectCard/>
-         <Contact/>
-        </div>
-      </div>
+          <Acheivements/>
+          <br></br>
+          <ProjectCard/>
+          <Contact/>
+          </div>
+          </SpeedInsights>
+          </div>
   );
 }
 
