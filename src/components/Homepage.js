@@ -13,7 +13,6 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 export default function Homepage() {
   return (
     <div>
-    <SpeedInsights>
     <Navbar />
     <div>
           <HackerTextBox/>
@@ -29,8 +28,9 @@ export default function Homepage() {
           <ProjectCard/>
           <Contact/>
           </div>
+          <SpeedInsights>
           </SpeedInsights>
           </div>
-  );
+          );
 }
 
