@@ -18,7 +18,7 @@ import project3 from './Assets/project3.png';
 import './css/ProfileCard.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { MDBCard } from 'mdb-react-ui-kit';
+// import { MDBCard } from 'mdb-react-ui-kit';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 

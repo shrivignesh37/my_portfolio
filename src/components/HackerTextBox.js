@@ -5,8 +5,7 @@ import './css/HackerTextBox.css';
 const HackerTextBox = () => {
   return (
     <div className="HackerTextBox">
-      <Hackertext></Hackertext>
-      
+      <Hackertext></Hackertext>  
     </div>
   );
 };
