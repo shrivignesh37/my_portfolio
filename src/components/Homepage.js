@@ -8,6 +8,7 @@ import Education from './Education';
 import Acheivements from './Acheivements';
 import ProjectCard from './ProjectCard';
 import Contact from './Contact';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 // import ProjectCard from './ProjectCard';
 export default function Homepage() {
   return (
