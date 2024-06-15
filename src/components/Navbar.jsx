@@ -41,10 +41,10 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className='navbar-actions'>
-                    <MDBBtn outline color='white' href={Resume} download className='nav-btn'>
+                    <MDBBtn outline color='white' href={Resume} download className='nav-btn1'>
                         <span role="img" aria-label="download">⬇️</span> Resume
                     </MDBBtn>
-                    <MDBBtn outline color='white' onClick={toggleTheme} className='nav-btn'>
+                    <MDBBtn outline color='white' onClick={toggleTheme} className='nav-btn2'>
                         <span role="img" aria-label="bulb">💡</span>
                     </MDBBtn>
                 </div>

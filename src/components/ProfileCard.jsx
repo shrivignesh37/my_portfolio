@@ -32,7 +32,7 @@ export default function ProfileCard() {
           >
             <div className="container">
               <div>
-                <div className="col-lg-2 offset-lg-0" style={{ marginLeft: '10vh', marginTop: '10vh', width: '55vh' }}>
+                <div className="col-lg-2 offset-lg-0" style={{ marginLeft: '-3vh', marginTop: '10vh', width: '55vh' }}>
                   <MDBCard className="mb-2" style={{ backgroundColor: '#152238', boxShadow: '0 15px 70px 0 rgba(31, 38, 135, 0.37)', backdropFilter: 'blur(25px)', borderRadius: '6vh' }}>
                     <MDBCardBody className="text-center">
                       <MDBCardImage
@@ -63,7 +63,7 @@ export default function ProfileCard() {
             </div>
             <div>
               <div>
-                <div className="col-lg-0 offset-lg-0" style={{ marginRight: '12vh', marginTop: '10vh', width: { xs: '100%', md: '110vh' }, height: { xs: 'auto', md: '70.5vh' } }}>
+                <div className="col-lg-0 offset-lg-0" style={{ marginRight: '1vh', marginTop: '10vh', width: { xs: '100%', md: '110vh' }, height: { xs: 'auto', md: '70.5vh' } }}>
                   <MDBCard className="mb-3" style={{ backgroundColor: '#152238', boxShadow: '0 15px 70px 0 rgba(31, 38, 135, 0.37)', backdropFilter: 'blur(25px)', borderRadius: '6vh' }}>
                     <MDBCardBody className="text-center">
                       <MDBTypography variant='h3'>
