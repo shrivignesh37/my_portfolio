@@ -4,6 +4,8 @@ import Container from '@mui/material/Container';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import './css/contact.css';
+import { MDBBtn,MDBIcon } from 'mdb-react-ui-kit';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 
 export default function Contact() {
   return (
@@ -36,8 +38,8 @@ export default function Contact() {
                   I'm actively seeking web development opportunities! If you have any projects or collaboration ideas or just want to say hi, please feel free to connect with me at
                   <br />
                 </div>
-                <center style={{ color: 'white' }}>Shrivigneshsumathi@gmail.com</center>
-                <center style={{ color: 'white' }}>by Shri Vignesh S ❤️</center>
+                <MDBBtn className="btn btn-primary" style={{ marginRight: '-1vh', backgroundColor: 'grey' }} href="mailto:shrivigneshsumathi@gmail.com"> <MDBIcon fas icon="envelope" /></MDBBtn>
+                <center style={{ color: 'white' ,marginRight: '-3vh'  }}>Shri Vignesh S ❤️</center>
               </div>
             </div>
           </Box>

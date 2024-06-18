@@ -6,6 +6,7 @@ import './css/ProfileCard.css';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBIcon, MDBTypography } from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import newCnLogo from './Assets/new-cn-logos-1-1711622387.svg';
 
 export default function ProfileCard() {
   return (
@@ -49,13 +50,20 @@ export default function ProfileCard() {
                         <MDBBtn className="btn btn-primary" style={{ marginRight: '15px' }} href="https://www.linkedin.com/in/shri-vignesh/"> <MDBIcon fab icon='linkedin-in' /></MDBBtn>
                         <MDBBtn className="btn btn-primary" style={{ marginRight: '15px', backgroundColor: '#ac2bac' }} href="https://www.instagram.com/___.s_h_r_i.___/"> <MDBIcon fab icon="instagram" /></MDBBtn>
                         <MDBBtn className="btn btn-primary" style={{ marginRight: '15px', backgroundColor: '#333333' }} href="https://g.dev/Shri37"> <MDBIcon fab icon="google" /></MDBBtn>
+                     
                         <MDBBtn className="btn btn-primary" style={{ marginRight: '15px', backgroundColor: '#dd4b39' }} href="mailto:shrivigneshsumathi@gmail.com"> <MDBIcon fas icon="envelope" /></MDBBtn>
                         <a href="https://github.com/shrivignesh37">
                           <MDBBtn className="btn btn-primary" style={{ marginRight: '1px', backgroundColor: '#333333' }}>
                             <MDBIcon fab icon="github" />
                           </MDBBtn>
                         </a>
-                      </div>
+
+                        </div>
+                        <a href="https://www.naukri.com/code360/profile/Shri_37">
+                        <MDBBtn className="btn btn-primary" style={{ marginRight: '1px', backgroundColor: 'white' }}>
+                          <img src={newCnLogo} alt="newcnlogo" style={{ width: '90px', height: '40px' }} />
+                        </MDBBtn>
+                      </a>
                     </MDBCardBody>
                   </MDBCard>
                 </div>
